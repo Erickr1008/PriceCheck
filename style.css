@@ -118,7 +118,6 @@ left: 47%;
 .buy-button ul li{
     list-style: none;
     display: inline-block;
-    padding: 10px 16px;
     position: relative;
 }
 .buy-button ul li a{
