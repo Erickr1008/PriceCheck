@@ -121,14 +121,14 @@ left: 47%;
     position: relative;
 }
 .buy-button ul li a{
-    color: #white;
+    color: #ffffff;
     text-decoration: none;
 }
 .buy-button::after{
     content: '';
     width: 0%;
     height: 2px;
-    background: #white;
+    background: #ffffff;
     display: block;
     margin: auto;
     transition: 0.2s;
