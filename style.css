@@ -124,7 +124,7 @@ left: 47%;
     color: #ffffff;
     text-decoration: none;
 }
-.buy-button::after{
+.buy-button ul li::after{
     content: '';
     width: 0%;
     height: 2px;
@@ -133,6 +133,6 @@ left: 47%;
     margin: auto;
     transition: 0.2s;
 }
-.buy-button:hover::after{
+.buy-button ul li:hover::after{
     width: 100%;
 }
