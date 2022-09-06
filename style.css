@@ -124,13 +124,12 @@ left: 47%;
 .buy-button ul li a{
     color: #504e4e;
     text-decoration: none;
-    font-size: 20px;
 }
 .buy-button::after{
     content: '';
     width: 0%;
     height: 2px;
-    background: #f44336;
+    background: #white;
     display: block;
     margin: auto;
     transition: 0.2s;
