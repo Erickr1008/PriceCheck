@@ -121,7 +121,7 @@ left: 47%;
     position: relative;
 }
 .buy-button ul li a{
-    color: #504e4e;
+    color: #white;
     text-decoration: none;
 }
 .buy-button::after{
