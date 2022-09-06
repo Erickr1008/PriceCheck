@@ -128,10 +128,10 @@ left: 47%;
     content: '';
     width: 0%;
     height: 2px;
-    background: #504E4E;
+    background: #ffffff;
     display: block;
     margin: auto;
-    transition: 0.2s;
+    transition: 0.1s;
 }
 .buy-button ul li:hover::after{
     width: 100%;
