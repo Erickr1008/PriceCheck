@@ -107,6 +107,12 @@ left: 47%;
    grid-template-columns: 1fr 1fr 1fr;
 
 }
+.P_container{
+    display: grid;
+    
+    grid-template-columns: auto auto;
+    
+}
 .buy-button{
     background-color: #f44336;
     border: none;
