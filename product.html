@@ -1,13 +1,23 @@
-<!DOCTYPE html>
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
     <meta name="viewport" content="with=device-width, initial-scale=1.0">
     <title>Price Check App</title>
     <link rel="stylesheet" href="product-style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
-</head>
-<body>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
     <section class="header">
         <nav>
             <a href="index.html"><img src="images/logo.png"></a>
@@ -27,16 +37,41 @@
             <a href=""></a>
 
         </div>
-        <div class="P_container">
-            <div class="image"><img src="images/product1.png" alt="" /></div>
-            <div class="description">The ball is in good condition. Perfect for any soccer games and fun for the whole family.</div>
-            <div class="price">$27</div>
-            <div class="location">Fontana, CA</div>
+ </section>
+ <section class=" container product my-5 pt-5">
+    <div class="row mt-5">
+        <div class="col-lg-5 col-md-12 col-12">
+            <img class="img-fluid w-100 p-md-1" src="images/product1.png" alt="">
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="images/product1.png" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/product2.png" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/product2.png" width="100%" class="small-img" alt="">
+                </div>
+            </div>
         </div>
-    </section>   
-        
-        
-    
-    
-</body>
+        <div class="col-lg-6 col-md-12 col-12">
+            <h6>Home / Product</h6>
+            <h3 class="py-4">Adidas Soccer Ball</h3>
+            <h2>$27.00</h2>
+            <select class="my-3">
+                <option>Select item</option>
+                <option>Select item</option>
+                <option>Select item</option>
+            </select>
+            <input type="number" value="1">
+            <button class="buy-button">Add to cart</button>
+            <h4 class="mt-5 mb-5">Product description</h4>
+            <span>This ball is great to play with.It is made of ball stuff that is perfect for kicking.FUN!!</span>
+        </div>
+    </div>
+
+
+ </section>   
+  </body>
 </html>
+
