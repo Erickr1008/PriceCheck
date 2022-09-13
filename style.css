@@ -124,15 +124,5 @@ left: 47%;
     color: #ffffff;
     text-decoration: none;
 }
-.buy-button ul li::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #ffffff;
-    display: block;
-    margin: auto;
-    transition: 0.1s;
-}
-.buy-button ul li:hover::after{
-    width: 100%;
-}
+
+
