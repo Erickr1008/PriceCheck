@@ -1,0 +1,15 @@
+<!-- templates/registration/login.html -->
+
+
+
+<h2>Login</h2>
+
+<!--<img src = "/Users/apple/Downloads/giphy.gif" alt = "Cat Picture" height="300" width="300" style="margin-left: 200">-->
+
+ <iframe src="https://giphy.com/embed/3o6Zt481isNVuQI1l6" width="480" height="300" frameBorder="0"></iframe>
+
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Log In</button>
+</form>  
