@@ -19,7 +19,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <section class="header">
-        <script scr = "/script.js"></script>
+        
         <nav>
             <a href="index.html"><img src="images/logo.png"></a>
             <div class="nav-links">
@@ -38,7 +38,7 @@
             <a href=""></a>
 
         </div>
-
+         
         <div class=" container product my-5 pt-5">
             <div class="row mt-5">
                 <div class="col-lg-5 col-md-12 col-12">
@@ -70,6 +70,32 @@
         
         </div>   
  </section>
+ 
+    <script>
+        var mainImage = document.getElementById('mainImage');
+        var smallImg = document.getElementsByClassName('small-img');
+
+        smallImg[0].onclick = function(){
+           mainImage.scr = smallImg[0].scr;
+        }
+
+        smallImg[1].onclick = function(){
+         mainImage.scr = smallImg[2].scr;
+        }
+
+        smallImg[2].onclick = function(){
+         mainImage.scr = smallImg[2].scr;
+        }
+
+        smallImg[3].onclick = function(){
+         mainImage.scr = smallImg[3].scr;
+        }
+
+
+
+
+    </script>
+
   </body>
 </html>
 
