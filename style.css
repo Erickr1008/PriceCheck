@@ -61,8 +61,8 @@ left: 47%;
      /* position: absolute; */
      /* top: 21%; */
      /* left: 35%; */
-     /* transform: translate(-10%,-50%); */
-     text-align: center;
+      transform: translate(0%,-45%);
+      text-align: center;
 }
 .text-box h1{
     font-size: 40px;
