@@ -1,0 +1,3 @@
+Set-Alias -Name pydj2 -Value "C:\Users\Student\AppData\Local\pypoetry\Cache\virtualenvs\documents-ezALGB_2-py3.10\Scripts\python.exe"
+
+if you ever need to run the python command, run `pydj2` instead, `pydj2 manage.py makemigrations`
