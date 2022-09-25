@@ -70,7 +70,7 @@ left: 47%;
 .text-box p{
     font-size: 20px;
 }
-.small-img-group{
+.carousel__images{
     display: flex;
     justify-content: space-between;
 

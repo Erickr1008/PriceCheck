@@ -43,17 +43,22 @@
             <div class="row mt-5">
                 <div class="col-lg-5 col-md-12 col-12">
                     <img class="img-fluid w-100 p-md-1" src="images/product1.png" id = "mainImage" alt="">
-                    <div class="small-img-group">
+                 
+                   
+                    <div class="carousel__images">
+
                         <div class="small-img-col">
                             <img src="images/product1.png" width="100%" class="small-img" alt="">
                         </div>
                         <div class="small-img-col">
-                            <img src="images/product2.png" width="100%" class="small-img" alt="">
+                            <img src="images/ball1.png" width="100%" class="small-img" alt="">
                         </div>
                         <div class="small-img-col">
-                            <img src="images/product2.png" width="100%" class="small-img" alt="">
+                            <img src="images/ball2.png" width="100%" class="small-img" alt="">
                         </div>
                     </div>
+                    
+                 
                 </div>
                 <div class="col-lg-6 col-md-12 col-12">
                     <h6>Home / Product</h6>
@@ -71,31 +76,31 @@
         </div>   
  </section>
  
-    <script>
-        var mainImage = document.getElementById('mainImage');
-        var smallImg = document.getElementsByClassName('small-img');
 
-        smallImg[0].onclick = function(){
-           mainImage.scr = smallImg[0].scr;
-        }
-
-        smallImg[1].onclick = function(){
-         mainImage.scr = smallImg[2].scr;
-        }
-
-        smallImg[2].onclick = function(){
-         mainImage.scr = smallImg[2].scr;
-        }
-
-        smallImg[3].onclick = function(){
-         mainImage.scr = smallImg[3].scr;
-        }
-
-
-
-
-    </script>
 
   </body>
+  <script>
+    var MainImg = document.getElementById('mainImage');
+    
+    var smallimg = document.getElementsByClassName('small-img');
+    
+    smallimg[0].onclick = function(){
+    
+    
+    MainImg.src = smallimg[0].src;
+    }
+    
+    smallimg[1].onclick = function(){
+    
+    MainImg.src = smallimg[1].src;
+    
+    }
+    
+    smallimg[2].onclick = function(){
+    
+    MainImg.src = smallimg[2].src;
+    
+    }
+    </script>
 </html>
 
