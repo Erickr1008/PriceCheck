@@ -101,3 +101,17 @@ left: 47%;
     font-weight: bold;
     width: 100%;
 }
+.card{
+    background-color: whitesmoke;
+    border-radius: 12px;
+    padding: 13px;
+    box-shadow: 0px 10px 5px #c3b5b2;
+    /* text-align: left; */
+    /* transform: translate(5%); */
+    font-family: "Poppins";
+    max-width: 80%;
+    max-height: 70%;
+    /* top: 35%; */
+    min-width: auto;
+    margin: auto;
+}
