@@ -99,8 +99,8 @@ left: 47%;
 }
 
 .card img{
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 150px;
+    max-height: 150px;
     }
 .product-container{
    display: grid;
