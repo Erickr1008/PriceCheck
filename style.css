@@ -80,7 +80,7 @@ left: 47%;
     /* transform: translate(5%); */
     font-family: "Poppins";
     max-width: 300px;
-    max-height: 300px;
+    max-height: 350px;
     /* top: 35%; */
     min-width: 300px;
     margin: auto;
@@ -100,7 +100,7 @@ left: 47%;
 
 .card img{
     max-width: 250px;
-    max-height: 50%;
+    max-height: 250px;
     }
 .product-container{
    display: grid;
